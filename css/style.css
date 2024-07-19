@@ -14,8 +14,8 @@
     }
   }
 
-  .passionate-color h1 {
-    text-shadow: 0 0 0 10px cyan;
+  .passionate-color {
+    text-shadow: 0 0 0 10px rgb(14, 233, 233);
   }
 
   .herosection-container h1, h2 {
@@ -23,6 +23,9 @@
     text-shadow: 0 0 10px #fff;
   }
   
-  
-
+  .herosection-container img {
+    -moz-box-shadow: 0 0 5px #fff;
+    -webkit-box-shadow: 0 0 5px #fff;
+    box-shadow: 0px 0px 10px #fff
+  }
 
