@@ -14,7 +14,7 @@
     }
   }
 
-  .passionate-color {
+  .passionate-color span {
     text-shadow: 0 0 0 10px rgb(14, 233, 233);
   }
 
@@ -29,3 +29,20 @@
     box-shadow: 0px 0px 10px #fff
   }
 
+  .portfolioimg1 img {
+    -moz-box-shadow: 0 0 5px #109ed6;
+    -webkit-box-shadow: 0 0 5px #109ed6;;
+    box-shadow: 0px 0px 10px #109ed6;
+  }
+
+  .portfolioimg2 img {
+    -moz-box-shadow: 0 0 5px #e937cb;
+    -webkit-box-shadow: 0 0 5px #e937cb;;
+    box-shadow: 0px 0px 10px #e937cb;
+  }
+
+  .portfolioimg3 img {
+    -moz-box-shadow: 0 0 5px #e9b137;
+    -webkit-box-shadow: 0 0 5px #f29b66;;
+    box-shadow: 0px 0px 10px #f29b66;
+  }
