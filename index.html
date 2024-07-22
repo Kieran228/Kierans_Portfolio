@@ -17,7 +17,7 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: rgba(0, 0, 0);">
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top" style="background-color: rgba(0, 0, 0);">
         <div class="navbar-container ps-0 container-fluid d-flex justify-content-start">
             <a class="navbar-brand pr-0 me-0" href="">
                 <img src="./Media/spacemanlogonobg.png" width="90" height="90" alt="websitelogo">
@@ -41,13 +41,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="#">About Me</a>
+                        <a class="nav-link" aria-current="page" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#aboutme">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Me</a>
+                        <a class="nav-link" href="#contact">Contact Me</a>
                     </li>
                 </ul>
             </div>
@@ -88,6 +88,7 @@
                 </div>
             </div>
         </div>
+    <div id="projects">
         <div class="portfolio-container container-fluid pt-5">
             <div class="row">
                 <div class="col-12 text-center pb-5">
@@ -107,12 +108,12 @@
         <div class="portfolio-container2 container-fluid pt-5">
             <div class="row">
                 <div class="airboximg2 col-12 col-md-6 col-lg-6">
-                    <img class="img-fluid border border-warning" src="./Media/airboxscreenshot2.PNG" alt="">
+                    <img class="img-fluid border border-warning rounded-3" src="./Media/airboxscreenshot2.PNG" alt="">
                 </div>
                 <div class="grid-container container-fluid col-12 col-md-6 col-lg-6 pt-5">
                     <div class="row">
                         <div class="airboximg3 col-sm-6 col-md-6">
-                            <img class="img-fluid border border-light" src="./Media/airboxscreenshot3.PNG" alt="">
+                            <img class="img-fluid border border-light rounded-3" src="./Media/airboxscreenshot3.PNG" alt="">
                         </div>
                         <div class="col-sm-6 col-md-6 pt-4 pe-6 text-center">
                             <h2 class="text-white">
@@ -128,12 +129,12 @@
                             </h2>
                         </div>
                         <div class="airboximg4 col-sm-6 col-md-6 pb-5">
-                            <img class="img-fluid border border-light" src="./Media/airboxscreenshot4.PNG" alt="">
+                            <img class="img-fluid border border-light rounded-3" src="./Media/airboxscreenshot4.PNG" alt="">
                         </div>   
                     </div>
                     <div class="row">
                         <div class="airboximg5 col-sm-6 col-md-6">
-                            <img class="img-fluid border border-light" src="./Media/airboxscreenshot5.PNG" alt="">
+                            <img class="img-fluid border border-light rounded-3" src="./Media/airboxscreenshot5.PNG" alt="">
                         </div>
                         <div class="col-sm-6 col-md-6 pt-4 pe-6 text-center">
                             <h2 class="text-white">
@@ -144,9 +145,11 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div id="aboutme">
         <div class="aboutme-container container-fluid pt-5">
             <div class="row">
-                <div class="col-12 col-md-12 text-center">
+                <div class="col-12 col-md-12 text-center pb-4">
                     <h2 class="text-white">
                         <big>
                             About Me
@@ -154,7 +157,22 @@
                     </h2>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 pb-4 ps-lg-4">
+                    <img class="img-fluid" src="./Media/codingpicture.jpg" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 text-center">
+                    <h2>
+                        <ul>
+                            <li class="text-white pb-5 pb-md-0 pb-lg-5">Associate of Science in CS</li>
+                            <li class="text-white pb-5 pb-md-0 pb-lg-5 pt-lg-5">Mississippi Coding Academy HTML/CSS/Bootstrap</li>
+                            <li class="text-white pt-3 pt-md-0 pt-lg-4">Mississippi Coding Academy Javascript/C#</li>
+                        </ul>
+                    </h2>
+                </div>
+            </div>
         </div>
+    </div>
     </div>
 </body>
 </html>

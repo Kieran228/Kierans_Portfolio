@@ -14,9 +14,9 @@
     }
   }
 
-  .passionate-color span {
+  /* .passionate-color span {
     text-shadow: 0 0 0 10px rgb(14, 233, 233);
-  }
+  } */
 
   .herosection-container h1, h2 {
     font-family: 'Open Sans';
@@ -69,4 +69,9 @@
     -moz-box-shadow: 0 0 5px #ffffff;
     -webkit-box-shadow: 0 0 5px #ffffff;;
     box-shadow: 0px 0px 10px #ffffff;
+  }
+
+  .aboutme-container li {
+    font-family: 'Open Sans';
+    text-shadow: 0 0 10px #fff;
   }
