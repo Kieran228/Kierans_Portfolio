@@ -46,3 +46,27 @@
     -webkit-box-shadow: 0 0 5px #f29b66;;
     box-shadow: 0px 0px 10px #f29b66;
   }
+
+  .airboximg2 img {
+    -moz-box-shadow: 0 0 5px #8908f3;
+    -webkit-box-shadow: 0 0 5px #8908f3;;
+    box-shadow: 0px 0px 10px #8908f3;
+  }
+
+  .airboximg3 img {
+    -moz-box-shadow: 0 0 5px #ffffff;
+    -webkit-box-shadow: 0 0 5px #ffffff;;
+    box-shadow: 0px 0px 10px #ffffff;
+  }
+
+  .airboximg4 img {
+    -moz-box-shadow: 0 0 5px #ffffff;
+    -webkit-box-shadow: 0 0 5px #ffffff;;
+    box-shadow: 0px 0px 10px #ffffff;
+  }
+
+  .airboximg5 img {
+    -moz-box-shadow: 0 0 5px #ffffff;
+    -webkit-box-shadow: 0 0 5px #ffffff;;
+    box-shadow: 0px 0px 10px #ffffff;
+  }
