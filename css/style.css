@@ -14,13 +14,13 @@
     }
   }
 
-  /* .passionate-color span {
+  .passionate-color {
     text-shadow: 0 0 0 10px rgb(14, 233, 233);
-  } */
+  }
 
-  .herosection-container h1, h2 {
+  .herosection-container h1, .herosection-container h2 {
     font-family: 'Open Sans';
-    text-shadow: 0 0 10px #fff;
+    /* text-shadow: 0 0 10px #fff; */
   }
   
   .herosection-container img {
@@ -75,3 +75,12 @@
     font-family: 'Open Sans';
     text-shadow: 0 0 10px #fff;
   }
+
+.portfolio-container h2, .portfolio-container2 h2, .aboutme-container h2 {
+    font-family: 'Open Sans';
+    text-shadow: 0 0 10px #fff;
+}
+
+.github:hover {
+  color: white;
+}
