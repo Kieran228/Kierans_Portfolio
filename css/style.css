@@ -76,11 +76,19 @@
     text-shadow: 0 0 10px #fff;
   }
 
-.portfolio-container h2, .portfolio-container2 h2, .aboutme-container h2 {
+.portfolio-container h2, .portfolio2-container h2, .aboutme-container h2 {
     font-family: 'Open Sans';
     text-shadow: 0 0 10px #fff;
 }
 
-.github:hover {
-  color: white;
+@media (min-width: 768px) {
+  .welcometext {
+    margin-bottom: 30vh;
+  }
+  .herosection-container {
+    margin-bottom: 50vh;
+  }
+  .portfolio2-container {
+    margin-bottom: 50vh;
+  }
 }
