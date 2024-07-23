@@ -82,13 +82,29 @@
 }
 
 @media (min-width: 768px) {
-  .welcometext {
-    margin-bottom: 30vh;
-  }
   .herosection-container {
-    margin-bottom: 50vh;
+    margin-bottom: 40vh;
+  }
+  .welcometext {
+    margin-bottom: 40vh;
+  }
+  .portfolio-container {
+    margin-bottom: 20vh;
   }
   .portfolio2-container {
-    margin-bottom: 50vh;
+    margin-bottom: 40vh;
+  }
+  .aboutme-container {
+    margin-top: 40vh;
+  }
+  .aboutmetext {
+    margin-bottom: 25vh;
   }
 }
+
+.aboutme-container img {
+  -moz-box-shadow: 0 0 5px #ffffff;
+  -webkit-box-shadow: 0 0 5px #ffffff;;
+  box-shadow: 0px 0px 10px #ffffff;
+}
+
