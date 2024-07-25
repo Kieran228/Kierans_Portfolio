@@ -1,22 +1,21 @@
 .nametextcolor {
-    color: #fff;
+    /* color: #fff;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate; */
+
+    font-family: 'Open Sans';
+    text-shadow: 0 0 5px #fff;
 }
 
-@-webkit-keyframes glow {
+/* @-webkit-keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0b08e9, 0 0 40px #0b08e9, 0 0 50px #0b08e9, 0 0 60px #0b08e9, 0 0 70px #0b08e9;
     }
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
-  }
-
-  .passionate-color {
-    text-shadow: 0 0 0 10px rgb(14, 233, 233);
-  }
+  } */
 
   .herosection-container h1, .herosection-container h2 {
     font-family: 'Open Sans';
@@ -73,39 +72,41 @@
 
   .aboutme-container li {
     font-family: 'Open Sans';
-    text-shadow: 0 0 10px #fff;
+    text-shadow: 0 0 5px #fff;
   }
 
 .portfolio-container h2, .portfolio2-container h2, .aboutme-container h2 {
     font-family: 'Open Sans';
-    text-shadow: 0 0 10px #fff;
+    text-shadow: 0 0 5px #fff;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .herosection-container {
-    margin-bottom: 40vh;
+    margin-bottom: 20vh;
   }
   .welcometext {
-    margin-bottom: 40vh;
+    margin-bottom: 20vh;
   }
   .portfolio-container {
     margin-bottom: 20vh;
   }
   .portfolio2-container {
-    margin-bottom: 40vh;
+    margin-bottom: 20vh;
   }
   .aboutme-container {
-    margin-top: 40vh;
+    margin-top: 10vh;
   }
   .aboutmetext {
-    margin-bottom: 25vh;
+    margin-bottom: 15vh;
   }
   .airboximg2 img {
-    height: 1200px;
-    width: 600px;
+    object-fit: cover;
+    width: 100%;
+    height: 563px;
   }
   .astronautfalling2 img {
-    margin-top: 30vh;
+    margin-top: 5vh;
+    display: none;
   }
 }
 
@@ -113,5 +114,14 @@
   -moz-box-shadow: 0 0 5px #ffffff;
   -webkit-box-shadow: 0 0 5px #ffffff;;
   box-shadow: 0px 0px 10px #ffffff;
+}
+
+@media (min-width: 768px) {
+    .airboxnavbarimg {
+      margin-top: -40%;
+    }
+    .airboxiconsimg {
+      margin-top: -20%;
+    }
 }
 
