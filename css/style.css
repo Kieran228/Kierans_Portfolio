@@ -101,7 +101,7 @@
   }
   .airboximg2 img {
     object-fit: cover;
-    width: 100%;
+    width: 85%;
     height: 1222px;
   }
   .astronautfalling1 img {
@@ -112,6 +112,12 @@
     margin-top: 5vh;
     display: none;
   }
+  .airboxnavbarimg {
+    margin-top: -98%;
+  }
+  .airboxiconsimg {
+    margin-top: -55%;
+  }
 }
 
 .aboutme-container img {
@@ -120,12 +126,33 @@
   box-shadow: 0px 0px 10px #ffffff;
 }
 
-@media (min-width: 576px) {
-    .airboxnavbarimg {
-      margin-top: -98%;
-    }
-    .airboxiconsimg {
-      margin-top: -55%;
-    }
+@media (min-width: 768px) {
+  .airboxiconsimg {
+    margin-top: -21%;
+  }
+  .portfolio-text3 {
+    padding-top: 0px;
+  }
+  .airboximg2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 800px;
+  }
 }
+
+@media (min-width: 992px) {
+  .airboxiconsimg {
+      margin-top: -66%;
+  }
+  .portfolio-text3 {
+    padding-top: 0px;
+  }
+  .airboximg2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 1288px;
+}
+}
+
+
 
